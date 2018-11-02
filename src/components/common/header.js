@@ -10,12 +10,14 @@ var Header = React.createClass({
             <nav className="navbar navbar-default">
                 <div className="container-fluid">
                     <Link to="app" className="navbar-brand">
-                        <img src="./images/pluralsight-logo.png" />
+                        <img src="#" alt="Sklep muzyczny" />
                     </Link>
                     <ul className="nav navbar-nav">
-                        <li><Link to="app">Home</Link></li>
-                        <li><Link to="authors">Authors</Link></li>
-                        <li><Link to="about">About</Link></li>
+                        <li><Link to="app">Strona główna</Link></li>
+                        <li><Link to="authors">Edycja danych</Link></li>
+                        <li><Link to="about">O nas</Link></li>
+                        <li><Link to="albums">Katalog płyt</Link></li>
+                        <li><Link to="history">Historia zamowien</Link></li>
                     </ul>
                 </div>
             </nav>

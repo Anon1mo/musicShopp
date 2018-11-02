@@ -14,7 +14,7 @@ var AuthorForm = React.createClass({
    render: function() {
        return (
            <form>
-               <h1>Manage Author</h1>
+               <h1>Zarzadzaj uzytkownikiem</h1>
                <Input
                    name="firstName"
                    label="First Name"
@@ -29,6 +29,24 @@ var AuthorForm = React.createClass({
                    value={this.props.author.lastName}
                    onChange={this.props.onChange}
                    error={this.props.errors.lastName}
+
+               />
+
+               <Input
+                   name="street"
+                   label="Street"
+                   value={this.props.author.street}
+                   onChange={this.props.onChange}
+                   error={this.props.errors.street}
+
+               />
+
+               <Input
+                   name="tel"
+                   label="Telephone"
+                   value={this.props.author.tel}
+                   onChange={this.props.onChange}
+                   error={this.props.errors.tel}
 
                />
 

@@ -9,6 +9,7 @@
   "author": "Piotr Jakubowski",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.1",
     "bootstrap": "^3.3.5",
     "browserify": "^11.0.1",
     "flux": "^2.0.3",

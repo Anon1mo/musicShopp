@@ -20,8 +20,8 @@ var AuthorPage = React.createClass({
     render: function() {
         return (
             <div>
-                <h1>Authors</h1>
-                <Link to="addAuthor" className="btn btn-default">Add Author</Link>
+                <h1>Zmien dane</h1>
+                <Link to="addAuthor" className="btn btn-default">Dodaj dane</Link>
                 <AuthorList authors={this.state.authors} />
 
             </div>
